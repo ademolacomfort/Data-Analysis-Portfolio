@@ -1,4 +1,4 @@
-🌍 Global Air Pollution Analysis using Google BigQuery & Python
+🌍 ## **Global Air Pollution Analysis using Google BigQuery & Python**
 
 ---
 
