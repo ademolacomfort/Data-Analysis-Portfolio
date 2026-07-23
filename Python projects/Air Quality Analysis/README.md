@@ -1,12 +1,13 @@
-🌍 Air Quality Data Analysis using SQL and Python
-
+🌍 Global Air Pollution Analysis using Google BigQuery & Python
 
 
 📌 Project Overview
 
-This project analyzes air quality data to uncover environmental pollution patterns and trends. Using SQL for data extraction and Python for analysis and visualization, the project explores how air pollutants vary across regions, time periods, and monitoring sources.
+This project analyzes a global air quality dataset (2016–2022) queried from Google BigQuery. SQL was used to extract the 
 
-The goal is to generate actionable insights that can support environmental monitoring and data-driven decision-making.
+data, while Python was used for data cleaning, exploratory data analysis (EDA), and visualization to uncover pollution 
+
+patterns, regional hotspots, and temporal trends.
 
 
 
@@ -20,101 +21,107 @@ The goal is to generate actionable insights that can support environmental monit
 - Investigate potential monitoring-source bias
 
 
+
 🛠️ Tools & Technologies
 
 
-SQL (Google BigQuery)
-
-Python (Pandas, NumPy)
-
-Data Visualization (Matplotlib, Seaborn)
-
-Jupyter Notebook
+- **SQL (Google BigQuery)**
+- **Python** (Pandas, NumPy)
+- **Matplotlib**
+- **Seaborn**
+- **Jupyter Notebook**
 
 
 
 ⚙️ Workflow
 
 
-1. Data Extraction
-Queried air quality datasets using SQL in Google BigQuery
-Selected relevant pollutant and location-based fields
-2. Data Cleaning & Preparation
-Handled missing values and inconsistencies
-Standardized data formats for analysis
-Filtered and structured dataset for EDA
-3. Exploratory Data Analysis (EDA)
-Analyzed pollutant concentration distributions
-Identified regions with highest pollution levels
-Examined seasonal and yearly trends
-Investigated monitoring-source bias
-4. Data Visualization
-Created plots to show trends and distributions
-Visualized geographic and temporal patterns
+### 1. Data Extraction
+- Queried air quality data using SQL in Google BigQuery.
+- Selected relevant pollutant, location, and time variables.
+
+### 2. Data Cleaning
+- Handled missing values.
+- Standardized data formats.
+- Prepared the dataset for analysis.
+
+### 3. Exploratory Data Analysis
+- Explored pollutant concentration distributions.
+- Identified pollution hotspots.
+- Analyzed seasonal and yearly trends.
+- Investigated monitoring-source bias.
+
+### 4. Data Visualization
+- Created charts to communicate trends and patterns.
+- Compared pollution levels across regions and time.
+
 
 
 
 📊 Key Insights
 
 
-Pollutant levels vary significantly across regions
-Certain locations consistently show higher pollution (hotspots)
-Clear seasonal patterns exist in air quality changes
-Some monitoring sources may introduce bias in recorded values
+- Pollution levels varied significantly across regions.
+- Certain locations consistently recorded higher pollutant concentrations.
+- Seasonal patterns were evident in air quality measurements.
+- Monitoring sources showed differences that may indicate reporting bias.
 
 
+---
 
-📁 Project Structure
+## 📁 Project Structure
 
-
-Air-Quality-Analysis/
-
-
-
+Air Quality Analysis/
 │
+├── data/
+│   ├── global_air_quality_raw_data.csv
+│   └── global_air_quality_cleaned_data.csv
+│
+├── notebooks/
+│   └── global_air_quality_data_analysis.ipynb
+│
+├── visuals/
+│   ├── Avg Pollution by Month.jpg
+│   ├── Pollutant Counts.jpg
+│   ├── Yearly Pollution Trend.jpg
+│   └── ...
+│
+└── README.md
 
 
-├── data/                 # Raw or processed datasets
+### Visuals
+Contains visualizations including:
 
+---
 
-├── notebooks/            # Jupyter notebooks for analysis
+## 📈 Sample Visualizations
 
+### Top 10 Countries by Average Pollution
 
-├── visuals/             # Charts and graphs
+![Top Countries](visuals/Top%2010%20Countries%20by%20Avg%20Pollution.jpg)
 
+### Yearly Pollution Trend
 
-├── sql/                 # SQL queries
+![Yearly Trend](visuals/Yearly%20Pollution%20Trend.jpg)
 
+### Pollution Value Distribution
 
-└── README.md            # Project documentation
+![Distribution](visuals/Pollution%20Value%20Distribution.jpg)
 
+---
 
+## Skills Demonstrated
 
-🚀 How to Run This Project
+- Data cleaning with Pandas
+- Data manipulation and transformation
+- Exploratory Data Analysis (EDA)
+- Data visualization using Matplotlib and Seaborn
+- Working with datetime data
+- Grouping and aggregation
+- Statistical summaries
 
+---
 
-Clone the repository
-Install required libraries:
-pip install pandas numpy matplotlib seaborn
-Open Jupyter Notebook
-Run the analysis step by step
+## ✅ Conclusion
 
-
-
-📌 Future Improvements
-
-
-Add Power BI dashboard for interactive visualization
-Include machine learning for pollution prediction
-Expand dataset for more geographic coverage
-
-
-
-👩‍💻 Author
-
-
-Comfort Ademola
-
-B.Sc. Statistics
-
-Data Analyst (SQL | Python | Excel | Power BI)
+This project demonstrates an end-to-end data analysis workflow, from SQL data extraction in Google BigQuery to data cleaning, exploratory analysis, and visualization in Python. The insights generated can support environmental monitoring and informed decision-making while showcasing practical data analytics skills.
