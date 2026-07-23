@@ -73,10 +73,15 @@ patterns, regional hotspots, and temporal trends.
 
 Air Quality Analysis/
 │
+
 ├── data/
+
 │   ├── global_air_quality_raw_data.csv
+
 │   └── global_air_quality_cleaned_data.csv
+
 │
+
 ├── notebooks/
 │   └── global_air_quality_data_analysis.ipynb
 │
