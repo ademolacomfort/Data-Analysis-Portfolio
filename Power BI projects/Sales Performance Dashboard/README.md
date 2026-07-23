@@ -93,7 +93,7 @@ Provides insights into:
 
 ### Sales Dashboard
 
-![Sales Dashboard](Images/Sales%20OPerformance.png)
+![Sales Dashboard](Images/Dashboard%20Overview.png)
 
 ### Product Analysis
 
