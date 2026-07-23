@@ -9,7 +9,7 @@ data, while Python was used for data cleaning, exploratory data analysis (EDA), 
 
 patterns, regional hotspots, and temporal trends.
 
-
+---
 
 🎯 Objectives
 
@@ -20,7 +20,7 @@ patterns, regional hotspots, and temporal trends.
 - Study temporal (time-based) trends in pollution levels
 - Investigate potential monitoring-source bias
 
-
+---
 
 🛠️ Tools & Technologies
 
@@ -31,7 +31,7 @@ patterns, regional hotspots, and temporal trends.
 - **Seaborn**
 - **Jupyter Notebook**
 
-
+---
 
 ⚙️ Workflow
 
@@ -55,8 +55,7 @@ patterns, regional hotspots, and temporal trends.
 - Created charts to communicate trends and patterns.
 - Compared pollution levels across regions and time.
 
-
-
+---
 
 📊 Key Insights
 
@@ -100,10 +99,6 @@ Air Quality Analysis/
 
 │
 └── README.md
-
-
-### Visuals
-Contains visualizations including:
 
 ---
 
