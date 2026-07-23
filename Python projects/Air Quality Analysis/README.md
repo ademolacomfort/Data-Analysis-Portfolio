@@ -33,6 +33,13 @@ patterns, regional hotspots, and temporal trends.
 - **Jupyter Notebook**
 
 ---
+## 📂 Dataset
+
+**Source:** Google BigQuery Public Dataset
+
+The analysis uses a global air quality dataset queried using SQL in Google BigQuery. The dataset contains pollutant measurements, geographic information, and timestamps collected between 2016 and 2022.
+
+---
 
 ⚙️ Workflow
 
