@@ -4,9 +4,9 @@
 
 📌 Project Overview
 
-This project explores the relationship between sleep patterns, lifestyle habits, physical activity, and stress levels using statistical analysis and predictive modeling. 
+This project explores the relationship between sleep patterns, lifestyle habits, physical activity, and stress levels using statistical nalysis and predictive modeling.
+The analysis combines exploratory data analysis (EDA) with Ordinal Logistics Regression to identity the factors most strongly associated with stress levels and mental well-being.
 
-The analysis combines exploratory data analysis (EDA) with Ordinal Logistic Regression to identify the factors most strongly associated with stress levels and mental well-being.
 ---
 
 ## 🎯 Research Questions
