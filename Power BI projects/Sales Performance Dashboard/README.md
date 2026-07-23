@@ -93,15 +93,15 @@ Provides insights into:
 
 ### Sales Dashboard
 
-![Sales Dashboard](Images/Dashboard%20Overview.png)
+![Sales Dashboard](visuals/Dashboard%20Overview.png)
 
 ### Product Analysis
 
-![Product Analysis](Images/Product%20Analysis.png)
+![Product Analysis](visuals/Product%20Analysis.png)
 
 ### Customer Insights
 
-![Customer Insights](Images/Customer%20Insights.png)
+![Customer Insights](visuals/Customer%20Insights.png)
 
 ---
 
