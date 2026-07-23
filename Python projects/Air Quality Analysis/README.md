@@ -75,16 +75,14 @@ Air Quality Analysis/
 │
 
 ├── data/
-
 │   ├── global_air_quality_raw_data.csv
-
 │   └── global_air_quality_cleaned_data.csv
 
 │
-
 ├── notebooks/
 │   └── global_air_quality_data_analysis.ipynb
 │
+
 ├── visuals/
 │   ├── Avg Pollution by Month.jpg
 │   ├── Pollutant Counts.jpg
