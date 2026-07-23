@@ -102,18 +102,13 @@ An Ordinal Logistic Regression model was used because the target variable (stres
 
 ## 📈 Sample Visualizations
 
-### Stress Level Distribution
+### Relationships Between Predictors and Stress Detection
 
-![Stress Distribution](visuals/stress_distribution.png)
+![Stress Distribution](visuals/Relationships Between Predictors and Stress Detection.png)
 
-### Sleep Duration vs Stress
+### Correlation Heatmap
 
-![Sleep vs Stress](visuals/sleep_vs_stress.png)
-
-### Odds Ratios from Ordinal Logistic Regression
-
-![Odds Ratios](visuals/odds_ratios.png)
-
+![Correlation Heatmap](visuals/Spearman Correlation Heatmap.png)
 
 ---
 
