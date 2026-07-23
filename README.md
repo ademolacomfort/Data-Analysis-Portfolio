@@ -18,6 +18,8 @@ This repository showcases my data analysis projects, where I transform raw data 
 | Project | Tools | Description |
 |---------|-------|-------------|
 | Sales Dashboard | Power BI | Interactive dashboard analyzing sales performance. |
+| Air Quality Analysis | Python, SQL (BigQuery) | Exploratory data analysis of global air pollution data using SQL and Python. |
+| Sleep, Stress, and Mental Health Analysis | Python, Statsmodels | Statistical analysis of stress predictors using EDA and Ordinal Logistic Regression. |
 | *(More projects coming soon)* | | |
 
 ## 📫 Contact
